@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'TT Hoves Pro Trial';
+  src: url('/fonts/TT-Hoves-Pro-Trial.woff2') format('woff2'),
+    url('/fonts/TT-Hoves-Pro-Trial.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Hoves Pro Trial';
+  src: url('/fonts/TT-Hoves-Pro-Trial-Bold.woff2') format('woff2'),
+    url('/fonts/TT-Hoves-Pro-Trial-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+:root {
+  font-family: TT Hoves Pro Trial, Inter, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: #1b1b1b;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  background-color: #1b1b1b;
+  color: white;
+}
+
+.header-bg {
+  background-color: rgba(27, 27, 27, 0.8);
+}
+
+.rounded-r-lg {
+  border-radius: 0px 6px 6px 0px;
+}
+
+.rounded-lg {
+  border-radius: 8px;
+}
+
+.rounded-lg-top {
+  border-radius: 8px 8px 0px 0px;
+}
+
+th,
+td {
+  font-weight: 400;
+  font-size: 16px;
+}
